@@ -1,5 +1,5 @@
 const p = document.querySelector("p");
-const button = document.querySelector("button");
+const button = document.querySelector("status");
 const input = document.querySelector("input");
 button.addEventListener("click", function (event) {
   event.preventDefault();

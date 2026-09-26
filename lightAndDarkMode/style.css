@@ -25,5 +25,18 @@ div {
   background-color: blueviolet;
   color: white;
   padding: 8px;
-  border-radius: 4px;
+  border-radius: 8px;
+}
+.dark {
+  background-color: #121212;
+  color: #b86cff;
+}
+button {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 4px;
+}
+.darkmode {
+  background-color: #6a1bb9;
+  box-shadow: 0 4px 12px rgba(138, 43, 226, 0.25);
 }

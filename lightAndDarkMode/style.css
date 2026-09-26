@@ -20,7 +20,7 @@ body {
 }
 button {
   cursor: pointer;
-  border-radius: 50%;
   padding: 4px;
-  border: none;
+  border: 1px solid black;
+  border-radius: 4px;
 }

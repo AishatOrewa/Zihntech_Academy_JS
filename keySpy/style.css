@@ -11,3 +11,10 @@ body {
   gap: 1rem;
   align-items: center;
 }
+.active {
+  background-color: green;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 1);
+  padding: 4px;
+  border-radius: 2px;
+  border: none;
+}

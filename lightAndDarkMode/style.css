@@ -35,6 +35,7 @@ button {
   cursor: pointer;
   border-radius: 50%;
   padding: 4px;
+  border: none;
 }
 .darkmode {
   background-color: #6a1bb9;

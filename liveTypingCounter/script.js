@@ -7,11 +7,14 @@ input.addEventListener("input", function () {
   const value = input.value.trim();
   h1.textContent = `Welcome ${value} to my Live Typing Counter page.`;
   p.textContent = `You've written ${value.length} characters😊`;
+  p.style.color = "black";
   if (value === "") {
     p.textContent = "You've not typed anything🤦‍♀️";
+    h1.textContent = "Welcome to my Live Typing Counter page.";
   }
-});
-button.addEventListener("click", function (e) {
-  e.preventDefault();
-  input.value = "";
+  if (value.length >= 20) {
+    p.style.color = "red";
+  } else {
+    p.style.color = "black";
+  }
 });

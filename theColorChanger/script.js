@@ -1,14 +1,10 @@
-const p = document.querySelector("p");
-const button = document.querySelector("#status");
-const input = document.querySelector("input");
+const h1 = document.querySelector("h1");
+const button = document.querySelector("#colorBtn");
 button.addEventListener("click", function (event) {
   event.preventDefault();
-  p.textContent = `${input.value.trim()} your registration status has been confirmed!`;
-  p.style.color = "green";
-  p.style.fontWeight = "bold";
-  input.value = "";
+  h1.textContent = "You changed me!!";
 });
 const reset = document.querySelector("#reset");
 reset.addEventListener("click", function () {
-  p.textContent = p.innerHTML;
+  h1.textContent = "Click the Button below";
 });
